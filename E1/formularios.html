@@ -7,37 +7,49 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="" method="">
+    <header>
         <h1>Formulario de registro</h1>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" placeholder="ingrese su nombre..." required/>
-        <br />
-        <br />
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" placeholder="ingrese su apellido..." required/>
-        <br />
-        <br />
-        <label for="modalidad">Modalidad de Cursada:</label>
-        <input type="radio" name="modalidad" id="demanda" required/>
-        <label for="demanda">On-Demand</label>
-        <input type="radio" name="modalidad" id="vivo" />
-        <label for="vivo">En vivo</label>
-        <br />
-        <br />
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" placeholder="ingrese email valido..." required />
-        <br />
-        <br />
-        <input type="checkbox" id="info" required />
-        <label for="info">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba.</label>
-        <br />
-        <br />
-        <input type="checkbox" id="terms" required />
-        <label for="terms">Declaro que leí los términos y condiciones y estoy listo para convertirme en desarrollador web full Stack.</label>
-        <br />
-        <br />
-        <input type="submit" value="Enviar" />
-    </form>
+    </header>
+    <main>
+        <form action="" method="">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="ingrese su nombre..." required />
+            </div>
+            <br />
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="ingrese su apellido..." required />
+            </div>
+            <br />
+            <div>
+                Modalidad de Cursada:
+                <input type="radio" name="modalidad" id="demanda" required/>
+                <label for="demanda">On-Demand</label>
+                <input type="radio" name="modalidad" id="vivo" />
+                <label for="vivo">En vivo</label>
+            </div>
+            <br />
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" placeholder="ingrese email valido..." required />
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" id="info" required />
+                <label for="info">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba.</label>
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" id="terms" required />
+                <label for="terms">Declaro que leí los términos y condiciones y estoy listo para convertirme en desarrollador web full Stack.</label>
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Enviar" /> <!--otra forma es: <button type="submit">Enviar</button> -->
+            </div>
+        </form>
+    </main>
     <br />
     <br />
     <footer>
