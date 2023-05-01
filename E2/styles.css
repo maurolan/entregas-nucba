@@ -1,0 +1,80 @@
+/*HOJA DE ESTILOS E2 NUCBA */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poner la fuente, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Kalam", cursive;
+}
+
+/*PALETTA DE COLORES*/
+:root {
+  /*paleta pura*/
+  --tierra: #8b7665;
+  --rojo: #e63946;
+  --crema1: #ebe5df;
+  --crema2: #fefae0;
+  --mosta: #e9edc9;
+
+  /*texto color*/
+  --brillante: #faf8f4;
+  --apagado: #949494;
+}
+
+body {
+  background-color: var(--mosta);
+}
+
+/*ENCABEZADO*/
+header {
+  display: flex;
+  background-color: var(--tierra);
+  width: 100%;
+  max-height: 320px;
+  min-height: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 3px 3px 10px var(--tierra);
+  overflow: hidden;
+}
+
+/*HEADER LOGO*/
+.logo-header {
+  width: auto;
+  justify-content: center;
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  gap: 23px;
+}
+
+.navbar-list a {
+  color: var(--brillante);
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.navbar-list li:first-child > a {
+  font-weight: 700;
+}
+
+.source-icon {
+  width: 1.5em;
+}
