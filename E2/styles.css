@@ -78,3 +78,21 @@ header {
 .source-icon {
   width: 1.5em;
 }
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.caja {
+  /* width: 70%; */
+  margin: 2em;
+}
+
+.pepe {
+  width: 40%;
+  min-width: 50px;
+  max-width: 250px;
+}
