@@ -1,0 +1,650 @@
+/* MEDIAS QUIERIES */
+
+@media (max-width: 1400px) {
+  /* SECCION PORTADA */
+  .portada {
+    width: 1100px;
+    min-width: 1000px;
+    max-width: 1200px;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    width: 1100px;
+    min-width: 1000px;
+    max-width: 1200px;
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    width: 1100px;
+    min-width: 1000px;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1150px) {
+  /* SECCION PORTADA */
+  .portada {
+    width: 1000px;
+    min-width: 950px;
+    max-width: 1050px;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    width: 1000px;
+    min-width: 950px;
+    max-width: 1050px;
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    display: flex;
+    background: var(--crema3);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    padding: 4em 2em;
+    gap: 3em 3rem;
+    margin: 2rem 2rem;
+    margin-top: 2rem;
+    width: 1000px;
+    min-width: 950px;
+    max-width: 1050px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* SECCION PORTADA */
+  .portada {
+    width: 924px;
+    min-width: 800px;
+    max-width: 980px;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    width: 924px;
+    min-width: 800px;
+    max-width: 980px;
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    display: flex;
+    background: var(--crema3);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    padding: 4em 2em;
+    gap: 3em 5rem;
+    margin: 2rem 2rem;
+    margin-top: 2rem;
+    width: 924px;
+    min-width: 800px;
+    max-width: 980px;
+  }
+}
+
+@media (max-width: 940px) {
+  /* SECCION PORTADA */
+
+  .portada {
+    gap: 1rem;
+    padding: 1rem 1rem;
+    margin: 2rem 2rem;
+    width: 750px;
+    min-width: 650px;
+    max-width: 750px;
+  }
+
+  .portada img {
+    width: 280px;
+  }
+
+  .port-left {
+    width: 50%;
+    padding: 1rem 0;
+  }
+
+  .port-btn-primary {
+    width: 40%;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .port-btn-secondary {
+    width: 40%;
+    height: 2rem;
+    border: solid 2px var(--bg);
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    width: 750px;
+    min-width: 650px;
+    max-width: 750px;
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    padding: 1em 1em;
+    gap: 1em 2rem;
+    margin: 1rem 0;
+    width: 750px;
+    min-width: 650px;
+    max-width: 750px;
+  }
+
+  .product {
+    padding: 1em 0.5em;
+    width: 200px;
+    height: 280px;
+    border: 1px solid var(--tierra);
+  }
+
+  .product img {
+    width: 160px;
+    min-width: 110px;
+    border-radius: 7px;
+  }
+
+  .product-title {
+    font-size: 1.2em;
+    color: var(--bg);
+    text-shadow: 1px 1px 2px var(--bg2);
+    margin-top: 0.3em;
+  }
+}
+
+@media (max-width: 768px) {
+  /* SECCION PORTADA */
+
+  .portada {
+    gap: 1rem;
+    padding: 1rem 1rem;
+    margin: 2rem 2rem;
+    width: 620px;
+    min-width: 570px;
+    max-width: 630px;
+  }
+
+  .portada img {
+    width: 260px;
+  }
+
+  .port-left {
+    width: 50%;
+    padding: 1rem 0;
+  }
+
+  .port-btn-primary {
+    width: 40%;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .port-btn-secondary {
+    width: 40%;
+    height: 2rem;
+    border: solid 2px var(--bg);
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    width: 620px;
+    min-width: 570px;
+    max-width: 630px;
+  }
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    padding: 1em 1em;
+    gap: 1em 0;
+    margin: 1rem 0;
+    width: 620px;
+    min-width: 570px;
+    max-width: 630px;
+  }
+
+  .product {
+    padding: 1em 0.5em;
+    width: 170px;
+    height: 250px;
+    border: 1px solid var(--tierra);
+  }
+
+  .product img {
+    width: 120px;
+    min-width: 110px;
+    border-radius: 7px;
+  }
+
+  .product-title {
+    font-size: 1.2em;
+    color: var(--bg);
+    text-shadow: 1px 1px 2px var(--bg2);
+    margin-top: 0.3em;
+  }
+
+  .product-desc {
+    font-size: 0.8em;
+    color: var(--bg);
+    padding: 2px 7px;
+  }
+
+  .product .product-desc {
+    text-align: center;
+    padding: 0.3em 0;
+  }
+
+  /* NAVBAR */
+  .navbar-list {
+    display: none;
+  }
+
+  .menu-img {
+    display: flex;
+    position: fixed;
+    right: 12%;
+    top: 1%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* SECCION PORTADA */
+  .portada {
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 1rem 1.5rem;
+    margin-top: 5rem;
+    width: 450px;
+    min-width: 400px;
+    max-width: 500px;
+  }
+
+  .portada img {
+    width: 180px;
+    border-radius: 1rem;
+    border: solid 0.1rem var(--bg);
+  }
+
+  .port-left {
+    width: 70%;
+    padding: 1rem 0;
+  }
+
+  .port-left h1 {
+    color: var(--bg);
+    font-size: 40px;
+    font-weight: 600;
+    width: 15%;
+  }
+
+  .port-left p {
+    font-size: 16px;
+    width: 90%;
+    padding: 20px 0px;
+    line-height: 150%;
+  }
+
+  .port-btn-primary {
+    width: 50%;
+    height: 2rem;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .port-btn-secondary {
+    width: 50%;
+    height: 2rem;
+    border: solid 2px var(--bg);
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    padding: 3rem;
+    margin: 1rem 1.5rem;
+    gap: 1rem;
+    width: 450px;
+    min-width: 400px;
+    max-width: 500px;
+  }
+
+  .tem-container {
+    font-size: 16px;
+  }
+
+  .tematica-logo {
+    width: 140px;
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    padding: 1em 1em;
+    gap: 1em 0;
+    margin: 1rem 1.5rem;
+    width: 450px;
+    min-width: 400px;
+    max-width: 500px;
+  }
+
+  .product {
+    padding: 0.5em 0.1em;
+    width: 150px;
+    height: 210px;
+    border: 1px solid var(--tierra);
+  }
+
+  .product img {
+    width: 90px;
+    border-radius: 7px;
+  }
+
+  .product-title {
+    font-size: 0.9em;
+    color: var(--bg);
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 0.2em;
+  }
+
+  .product-desc {
+    font-size: 0.7em;
+    color: var(--bg);
+    padding: 2px 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  /*HEADER LOGO*/
+  .logo-header {
+    position: relative;
+    left: 60px;
+    width: 9rem;
+    padding: 0.5rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  /* SECCION PORTADA */
+  .portada {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 550px;
+    width: 330px;
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  .portada img {
+    width: 150px;
+  }
+
+  .port-left {
+    align-items: center;
+    padding: 0;
+  }
+
+  .port-left h1 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .port-left p {
+    font-size: 16px;
+    width: 90%;
+    padding: 5px 5px;
+    line-height: 140%;
+  }
+
+  .port-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1.5rem 0rem;
+  }
+
+  .port-btn-primary .port-btn-secondary {
+    height: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem 0;
+    gap: 2rem;
+    width: 330px;
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  .tem-container {
+    font-size: 18px;
+  }
+
+  .tematica-logo {
+    border: solid 0.1rem var(--bg);
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1em 0;
+    margin: 1rem 0;
+    width: 330px;
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  .product {
+    padding: 0.5em 0;
+    width: 150px;
+    height: 200px;
+    border: 1px solid var(--tierra);
+  }
+
+  .product img {
+    width: 90px;
+    border-radius: 7px;
+  }
+
+  .product-title {
+    font-size: 0.9em;
+    color: var(--bg);
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 0.2em;
+  }
+
+  .product-desc {
+    font-size: 0.7em;
+    color: var(--bg);
+    padding: 2px 5px;
+  }
+
+  /* CONTACTO */
+  .contact-container {
+    right: 2%;
+    bottom: 3%;
+    width: 60px;
+    height: 60px;
+    opacity: 0.7;
+  }
+
+  .contact-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    font-size: 10px;
+    gap: 10px;
+    padding: 5px 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  /*HEADER LOGO*/
+  .logo-header {
+    position: relative;
+    left: 20px;
+    width: 8rem;
+    padding: 0.5rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  /* SECCION PORTADA */
+  .portada {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 250px;
+    min-width: 210px;
+    max-width: 290px;
+  }
+
+  .portada img {
+    width: 150px;
+  }
+
+  .port-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100vw;
+    padding: 0;
+  }
+
+  .port-left h1 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .port-left p {
+    font-size: 14px;
+    width: 250px;
+    padding: 4px 4px;
+    line-height: 140%;
+  }
+
+  .port-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 280px;
+    padding: 1rem;
+  }
+
+  .port-btn-primary .port-btn-secondary {
+    height: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* SECCION TEMATICA */
+
+  .tematica {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem 0;
+    gap: 2rem;
+    width: 250px;
+    min-width: 210px;
+    max-width: 290px;
+  }
+
+  .tem-container {
+    font-size: 18px;
+  }
+
+  .tematica-logo {
+    border: solid 0.1rem var(--bg);
+  }
+
+  /* SECCCION PRODUCTOS Y SERVICIOS*/
+
+  .productos {
+    flex-direction: column;
+    align-content: center;
+    padding: 3em;
+    margin: 1rem 0;
+    width: 250px;
+    min-width: 210px;
+    max-width: 290px;
+  }
+
+  .contact-container {
+    right: 2%;
+    bottom: 3%;
+    width: 60px;
+    height: 60px;
+    opacity: 0.7;
+  }
+
+  .contact-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    font-size: 10px;
+    gap: 10px;
+    padding: 5px 5px;
+  }
+}
